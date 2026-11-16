@@ -22,7 +22,7 @@ Puis tester :
 
 ## Construire l'image soi-même
 
-    git clone <url_du_depot>
+    git clone https://github.com/rahma-bnb/mini-projet.git
     cd mini-projet
     docker build -t rahmabnb/app:1.0.1 .
 
