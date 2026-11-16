@@ -4,7 +4,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-MESSAGE = os.environ.get("MESSAGE", "Bonjour depuis un conteneur Docker !")
+MESSAGE = os.environ.get("MESSAGE", "Bonjour depuis un conteneur Docker, v1.0.1 !")
 
 
 @app.route("/")
